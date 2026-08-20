@@ -13,6 +13,10 @@ Route::get('/', function () {
 
 Auth::routes();
 
+if (file_exists(base_path('routes/gfee.php'))) {
+    require base_path('routes/gfee.php');
+}
+
 
 
 //Impersonate as teacher

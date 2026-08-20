@@ -2,6 +2,10 @@
 
 @include('teacherapi.php');
 
+if (file_exists(base_path('routes/gfeeapi.php'))) {
+    require base_path('routes/gfeeapi.php');
+}
+
 Route::post('/parent/login', 'Api\TokenController@issueToken');
 
 Route::post('/logout/devices', 'Api\LoginController@logoutDevices');
