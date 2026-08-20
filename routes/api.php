@@ -279,3 +279,7 @@ Route::get('/events/show/details/{id}','Api\EventsController@showdetails');
 
 
 
+
+if (file_exists(base_path('routes/gexamteacherapi.php'))) {
+    require base_path('routes/gexamteacherapi.php');
+}

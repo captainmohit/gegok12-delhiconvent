@@ -62,3 +62,7 @@ Route::post( '/{slug}/admission-form/validationPersonalDetail', 'AdmissionContro
 
 
 
+
+if (file_exists(base_path('routes/gexam.php'))) {
+    require base_path('routes/gexam.php');
+}
