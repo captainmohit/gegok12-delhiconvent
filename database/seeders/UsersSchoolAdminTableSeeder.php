@@ -28,8 +28,8 @@ class UsersSchoolAdminTableSeeder extends Seeder
             //admin
             $schoolAdmin = User::factory()->create([
                 'school_id'    =>   $school->id,
-                'name'         =>   'demoschool',
-                'email'        =>   'demoschool@mailinator.com',
+                'name'         =>   'delhischool',
+                'email'        =>   'delhischool@mailinator.com',
                 'mobile_no'    =>   '2230456789',
                 'usergroup_id' =>   3
             ]);
@@ -41,11 +41,11 @@ class UsersSchoolAdminTableSeeder extends Seeder
                 'firstname'     =>  'demo',
                 'lastname'      =>  'school',
                 'profession'    =>  'admin',
-                'address'       =>  'Namakkal,Tamilnadu,India',
+                'address'       =>  'H 121 Raj Nagar Part II Palam colony New Delhi,India',
                 'country_id'    =>  7,
                 'city_id'       =>  31,
                 'state_id'      =>  24,
-                'pincode'       =>  '625001'
+                'pincode'       =>  '110077'
             ]);
 
             //librarian
@@ -64,7 +64,7 @@ class UsersSchoolAdminTableSeeder extends Seeder
                 'firstname'     =>  'librarian',
                 'lastname'      =>  'librarian',
                 'profession'    =>  'librarian',
-                'address'       =>  'Namakkal,Tamilnadu,India',
+                'address'       =>  'H 121 Raj Nagar Part II Palam colony New Delhi,India',
                 'country_id'    =>  7,
                 'city_id'       =>  31,
                 'state_id'      =>  24,
@@ -96,7 +96,7 @@ class UsersSchoolAdminTableSeeder extends Seeder
                 'firstname'     =>  'receptionist',
                 'lastname'      =>  'receptionist',
                 'profession'    =>  'others',
-                'address'       =>  'Namakkal,Tamilnadu,India',
+                'address'       =>  'H 121 Raj Nagar Part II Palam colony New Delhi,India',
                 'country_id'    =>  7,
                 'city_id'       =>  31,
                 'state_id'      =>  24,
