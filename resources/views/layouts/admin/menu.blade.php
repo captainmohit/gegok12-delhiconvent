@@ -125,6 +125,17 @@
     @endif
     <!--end-->
 
+        @if (class_exists('Gegok12\TransferCertificate\Models\TransferCertificate'))
+    <!--start-->
+        <li class="py-3 px-3  {{Request::segment ('2') == 'transfer-certificate' ? 'active':''}}">
+        <a href="{{url('/admin/transfer-certificate')}}" class="flex items-center whitespace-no-wrap">
+            <!--  <img src="{{asset('uploads/icons/sidebar/reader.svg')}}" class="w-5 h-5"> -->
+           <img src="{{asset('uploads/certificate.png')}}" class="w-5 h-5">
+            <span class="mx-3 whitespace-no-wrap">Transfer Certificate</span>
+        </a>
+    </li>
+    @endif
+
     @php
         $class='';
         $array=array('timetable');
