@@ -16,8 +16,8 @@ class SchoolsTableSeeder extends Seeder
     {
         DB::table('schools')->Insert([
             'id'           =>  '1',
-            'name'         =>  'Demo School',
-            'email'        =>  'demoschool@gegok12.com',
+            'name'         =>  'NEW DELHI CONVENT SR. SECONDARY SCHOOL',
+            'email'        =>  'delhischool@mailinator.com',
             'phone'        =>  '9500979461',
             'status'       =>  '1',
             'slug'         =>  'demo-school',

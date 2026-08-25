@@ -44,7 +44,7 @@ class SchoolDetailsTableSeeder extends Seeder
         DB::table('school_details')->Insert([
             'school_id'     =>  '1',
             'meta_key'      =>  'board',
-            'meta_value'    =>  'matric',
+            'meta_value'    =>  'Recognised and a-liated to C.B.S.E) SCHOOL ID - 182115',
             'created_at'    =>  date("Y-m-d H:i:s"),
             'updated_at'    =>  date("Y-m-d H:i:s"),
         ]);
