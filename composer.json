@@ -14,8 +14,6 @@
         "aws/aws-sdk-php-laravel": "dev-master",
         "barryvdh/laravel-dompdf": "v3.1.1",
         "filament/tables": "^3.2",
-        "gegok12/exam": "v1.0.x-dev",
-        "gegok12/fee": "v1.1.x-dev",
         "guzzlehttp/guzzle": "^7.8",
         "jantinnerezo/livewire-alert": "^3.0-stable",
         "kreait/laravel-firebase": "^6.1",
@@ -132,13 +130,6 @@
     "minimum-stability": "stable",
     "prefer-stable": true,
     "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/gego-k12/fee.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/gego-k12/exam.git"
-        }
+       
     ]
 }
