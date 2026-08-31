@@ -24,7 +24,7 @@ class InstallFeeModule extends Command
             $username = $this->ask('Enter your Git username');
             $token =$this->secret('Enter your Git token');
             $repo='https://github.com/gego-k12/fee.git';
-            $package='gegok12/fee:v1.0.x-dev';
+            $package='gegok12/fee:v1.1.x-dev';
 
             // Step 2: Validate
             $validator = Validator::make([
